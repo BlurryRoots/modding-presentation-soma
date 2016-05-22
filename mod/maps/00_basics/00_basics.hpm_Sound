@@ -1,0 +1,10 @@
+<HPLMapTrack_Sound ID="4C7BF625A4899F09E06B6323E1BD138242110C0" Version="1.00">
+    <Section Name="Luis@WIGGLEWAGGLES">
+        <Objects>
+            <Sound ID="268435462" Name="Sound_1" CreStamp="1447332835" ModStamp="1447333139" WorldPos="2.75 1.75 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="16 29 268435462" />
+        </Objects>
+    </Section>
+    <Section Name="chef@KNURPSEL">
+        <Objects />
+    </Section>
+</HPLMapTrack_Sound>

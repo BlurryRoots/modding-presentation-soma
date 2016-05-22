@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Content Version="1.0"
+	Type="StandAlone"
+	Title="Soma at HAW"
+	Author="Sven Freiberg"
+	Description="Demo mod to show the basic capabilities of the modding tool by frictional games."
+	LauncherPic="LauncherPic.png"
+	
+	InitCfg="config/main_init.cfg"
+/>
+
