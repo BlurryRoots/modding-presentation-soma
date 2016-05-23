@@ -1,10 +1,19 @@
 <HPLMapTrack_Primitive ID="C9CECE924DDD873FF87DB4C29C3B8F45568190E5" Version="1.00">
     <Section Name="Luis@WIGGLEWAGGLES">
         <Objects>
-            <Plane ID="268435456" Name="Plane" CreStamp="1443527641" ModStamp="1443527641" WorldPos="-4.75 0 -4.75" Rotation="0 0 0" Scale="1 1 1" Material="static_objects/urban/floor/scanningroom_tiles.mat" StartCorner="0 0 0" EndCorner="9.5 0 9.5" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="16 10 268435456" Corner1UV="0 9.5" Corner2UV="0 0" Corner3UV="9.5 0" Corner4UV="9.5 9.5" />
+            <Plane ID="268435456" Name="Plane" CreStamp="1443527641" ModStamp="1463946577" WorldPos="-3 0 -3" Rotation="0 0 0" Scale="1 1 1" Material="static_objects/station/floor/metal_tiled.mat" StartCorner="0 0 0" EndCorner="21 0 6" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="16 10 268435456" Corner1UV="0 6" Corner2UV="0 0" Corner3UV="21 0" Corner4UV="21 6" />
         </Objects>
     </Section>
     <Section Name="chef@KNURPSEL">
         <Objects />
+    </Section>
+    <Section Name="klabusterbeere@PIMMELLOCH">
+        <Objects>
+            <Plane ID="301989910" Name="Plane_1" CreStamp="1463943796" ModStamp="1463946993" WorldPos="-3 3.25 3.25" Rotation="-3.14159 -0 0" Scale="1 1 1" Material="static_objects/station/roof/pplant_tiling_light.mat" StartCorner="0 0 0" EndCorner="21 0 6.5" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="18 24 301989910" Corner1UV="0 6.5" Corner2UV="0 0" Corner3UV="21 0" Corner4UV="21 6.5" />
+            <Plane ID="301989913" Name="Plane_2" CreStamp="1463944334" ModStamp="1463958759" WorldPos="18.25 0 -2" Rotation="0 0 0" Scale="1 1 1" Material="static_objects/station/floor/pplant_first_floor_tilable.mat" StartCorner="0 0 0" EndCorner="20 0 4" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="18 33 301989913" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="20 0" Corner4UV="20 4" />
+            <Plane ID="301989949" Name="Plane_3" CreStamp="1463947001" ModStamp="1463959487" WorldPos="17.5 3.2 3.25" Rotation="-3.14159 -0 0" Scale="1 1 1" Material="static_objects/station/roof/grating.mat" StartCorner="0 0 0" EndCorner="18 0 6.5" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="18 48 301989949" Corner1UV="0 6.5" Corner2UV="0 0" Corner3UV="18 0" Corner4UV="18 6.5" />
+            <Plane ID="301989953" Name="Plane_4" CreStamp="1463947177" ModStamp="1463947228" WorldPos="17.5 4 3.25" Rotation="-3.14159 -0 0" Scale="1 1 1" Material="static_objects/station/floor/floor_tunnel.mat" StartCorner="0 0 0" EndCorner="21 0 6.5" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="18 17 301989953" Corner1UV="0 6.5" Corner2UV="0 0" Corner3UV="21 0" Corner4UV="21 6.5" />
+            <Plane ID="301989985" Name="Plane_5" CreStamp="1463959310" ModStamp="1463959454" WorldPos="35.5 3.1 3.25" Rotation="-3.14159 -0 0.523599" Scale="1 1 1" Material="static_objects/station/roof/grating.mat" StartCorner="0 0 0" EndCorner="2.5 0 6" CastShadows="false" Collides="true" DiffuseColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" TileAmount="1 1 1" TileOffset="0 0 0" TextureAngle="0" AlignToWorldCoords="false" UID="18 18 301989985" Corner1UV="0 6" Corner2UV="0 0" Corner3UV="2.5 0" Corner4UV="2.5 6" />
+        </Objects>
     </Section>
 </HPLMapTrack_Primitive>

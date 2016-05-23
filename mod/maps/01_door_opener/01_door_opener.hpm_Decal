@@ -7,4 +7,10 @@
         <FileIndex_Decals NumOfFiles="0" />
         <Objects />
     </Section>
+    <Section Name="klabusterbeere@PIMMELLOCH">
+        <FileIndex_Decals NumOfFiles="1">
+            <File Id="0" Path="textures/decals/organic/blood_splatter_small.mat" />
+        </FileIndex_Decals>
+        <Objects />
+    </Section>
 </HPLMapTrack_Decal>

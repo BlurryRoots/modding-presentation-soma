@@ -1,0 +1,17 @@
+<HPLMapTrack_Sound ID="1E790373A9936F1A8A4746C1A6AE583F588B42" Version="1.00">
+    <Section Name="Luis@WIGGLEWAGGLES">
+        <Objects>
+            <Sound ID="268435462" Name="Sound_1" CreStamp="1447332835" ModStamp="1463964574" WorldPos="20.75 3.5 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="01_01_upsilon_awake/sfx/talking_door_close_sweetener" MinDistance="1" MaxDistance="10000" Volume="1" Active="true" UseCustomProperties="false" UID="16 29 268435462" />
+        </Objects>
+    </Section>
+    <Section Name="chef@KNURPSEL">
+        <Objects />
+    </Section>
+    <Section Name="klabusterbeere@PIMMELLOCH">
+        <Objects>
+            <Sound ID="301990017" Name="Sound_2" CreStamp="1463964575" ModStamp="1463964576" WorldPos="25.5 3.5 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="01_01_upsilon_awake/sfx/talking_door_close_sweetener" MinDistance="1" MaxDistance="10000" Volume="1" Active="true" UseCustomProperties="false" UID="18 105 301990017" />
+            <Sound ID="301990018" Name="Sound_3" CreStamp="1463964576" ModStamp="1463964579" WorldPos="29.5 3.5 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="01_01_upsilon_awake/sfx/talking_door_close_sweetener" MinDistance="1" MaxDistance="10000" Volume="1" Active="true" UseCustomProperties="false" UID="18 119 301990018" />
+            <Sound ID="301990019" Name="Sound_4" CreStamp="1463964582" ModStamp="1463964584" WorldPos="33.5 3.5 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="01_01_upsilon_awake/sfx/talking_door_close_sweetener" MinDistance="1" MaxDistance="10000" Volume="1" Active="true" UseCustomProperties="false" UID="18 104 301990019" />
+        </Objects>
+    </Section>
+</HPLMapTrack_Sound>

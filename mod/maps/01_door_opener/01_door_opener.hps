@@ -12,38 +12,38 @@
 #include "helpers/helper_ai.hps"
 
 //--------------------------------------------------
- 
+
 /*Place any global values here. These must be const variables as they will not be saved*/
 /*This is also the place for enums and classes, but these should be avoided whenever possible*/
- 
+
 //--------------------------------------------------
- 
+
 class cScrMap : iScrMap
 {
 	//--------------------------------------------
- 
+
 	//////////////////////////////////////////////////////////////////////////////////////////
 	// ==============
 	// MAIN CALLBACKS
 	// ==============
 	//{///////////////////////////////////////////////////////////////////////////////////////
- 
+
 	//-------------------------------------------------------
- 
+
 	////////////////////////////
 	// Set up map environment
 	void Setup()
 	{
-	
+
 	}
-	
+
 	//-------------------------------------------------------
 
 	////////////////////////////
 	// Run first time starting map
 	void OnStart()
 	{
-		
+
 	}
 
 	//-------------------------------------------------------
@@ -51,7 +51,7 @@ class cScrMap : iScrMap
 	////////////////////////////
 	// Run when entering map
 	void OnEnter()
-	{	
+	{
 	}
 
 	//-------------------------------------------------------
@@ -74,10 +74,10 @@ class cScrMap : iScrMap
 
 	////////////////////////////
 	// To get when player makes input (mostly used for debug)
-	void OnAction(int alAction, bool abPressed) 
+	void OnAction(int alAction, bool abPressed)
 	{
 		if(abPressed==false) return;
-		
+
 		if(alAction == eAction_Test1)
 		{
 		}
@@ -92,95 +92,95 @@ class cScrMap : iScrMap
 		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
 		return afY;
 	}
- 
+
 	//-------------------------------------------------------
- 
+
 	//} END MAIN CALLBACKS
- 
- 
+
+
 	//////////////////////////////////////////////////////////////////////////////////////////
 	// ==============
 	// MAIN FUNCTIONS
 	// ==============
 	//{///////////////////////////////////////////////////////////////////////////////////////
- 
+
 	//-------------------------------------------------------
- 
+
 	/*Put any variables that are used in more than one scene here.*/
- 
+
 	//-------------------------------------------------------
- 
+
 	/*Put any functions that are used in more than one scene here.*/
- 
+
 	//-------------------------------------------------------
- 
+
 	//} END MAIN FUNCTIONS
- 
+
 	//////////////////////////////////////////////////////////////////////////////////////////
 	// ==============
 	// SCENE X *NAME OF SCENE*
 	// ==============
 	//{//////////////////////////////////////////////////////////////////////////////////////
- 
+
 		 /////////////////////////////////////////
 		 // General
 		 //{//////////////////////////////////////
-		 
+
 		//-------------------------------------------------------
-	 
+
 		/*Put any variables that are used by many events in Scene X here.*/
-	 
+
 		//-------------------------------------------------------
-	 
+
 		/*Put any functions that are used in more than one event in Scene X here.*/
-	 
+
 		//-------------------------------------------------------
-		
-		//} END General	
-	 
+
+		//} END General
+
 		 /////////////////////////////////////////
 		 // Event *Name Of Event*
 		 //{//////////////////////////////////////
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 /*Put any variables that are only used in Scene X, Event X here.*/
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 /*Put any functionsthat are only used in Scene X, Event X here.*/
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 //} END Event *Name Of Event*
-	 
+
 	 //} END SCENE X
- 
- 
+
+
 	 /////////////////////////////////////////
 	 // ==============
 	 // TERMINALS
 	 // ==============
 	 //{//////////////////////////////////////
- 
+
 		 //-------------------------------------------------------
-	 
+
 		 /////////////////////////////////////////
 		 // Terminal *Name Of Terminal*
 		 //{//////////////////////////////////////
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 /*Put any variables that are only used Terminal here.*/
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 /*Put any functions that are only used Terminal here.*/
-	 
+
 		 //-------------------------------------------------------
-	 
+
 		 //} END Terminal *Name Of Terminal*
-	
+
 	//} END TERMINALS
- 
+
 }

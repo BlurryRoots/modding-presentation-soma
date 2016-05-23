@@ -1,0 +1,19 @@
+<PreloadCache>
+    <Materials>
+        <Material DebugPos="38.474457 : 1.972886 : -0.000000" Path="entities/station/doors/slidedoor_airlock/slidedoor_airlock.mat" />
+        <Material DebugPos="18.000000 : 1.625000 : 0.000000" Path="entities/station/doors/slidedoor_theta_small/slidedoor_theta_small.mat" />
+        <Material DebugPos="21.000000 : 3.875000 : 0.000000" Path="entities/station/lamp/ceiling_shutter_large/ceiling_shutter_large_white.mat" />
+        <Material DebugPos="6.205585 : 3.187500 : 0.000000" Path="entities/station/lamp/lamp_roof_large/lamp_roof_large.mat" />
+        <Material DebugPos="37.500000 : 3.897923 : 0.000000" Path="entities/station/lamp/warning_light_ceiling/warning_light_ceiling.mat" />
+        <Material DebugPos="17.776087 : 2.000009 : -1.506689" Path="entities/station/panels/theta_panel/theta_panel.mat" />
+        <Material DebugPos="37.500000 : 3.854474 : 0.000000" Path="f:/depth/redist/billboards/halo/lampglow_generic.mat" />
+        <Material DebugPos="28.000000 : 3.999508 : 0.000000" Path="static_objects/station/floor/floor_tunnel.mat" />
+        <Material DebugPos="7.500000 : -0.000500 : 0.000000" Path="static_objects/station/floor/metal_tiled.mat" />
+        <Material DebugPos="28.250000 : -0.000500 : 0.000000" Path="static_objects/station/floor/pplant_first_floor_tilable.mat" />
+        <Material DebugPos="27.582531 : 3.725007 : 0.000000" Path="static_objects/station/roof/grating.mat" />
+        <Material DebugPos="7.500000 : 3.249508 : 0.000000" Path="static_objects/station/roof/pplant_tiling_light.mat" />
+        <Material DebugPos="38.249992 : 2.000000 : 0.000000" Path="static_objects/station/walls/datasite_brown_overgrown.mat" />
+        <Material DebugPos="6.999997 : 1.625000 : -0.000000" Path="static_objects/station/walls/pplant.mat" />
+        <Material DebugPos="28.250000 : 2.000000 : 0.000002" Path="static_objects/station/walls/wall_living_area_cabin.mat" />
+    </Materials>
+</PreloadCache>

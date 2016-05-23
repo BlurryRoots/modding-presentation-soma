@@ -4,9 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Unearth</title>
+
+		<meta name="description" content="A talk about the modding tools used to build custom stories in frictional games' SOMA.">
+		<meta name="author" content="Sven Freiberg">
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -24,8 +28,107 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Custom Stories:</h2>
+					<p>Tools for modding SOMA</p>
+					<p>
+						<small>by <a href="http://svenfreibger.de">Sven Freiberg</a> / <a href="http://twitter.com/blurryroots">@blurryroots</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>frictional games</h2>
+					<p><img src="data/Frictional_Games.png"></p>
+					<ul>
+						<li>Helsingborg, Sweden</li>
+						<li>Founded 2006</li>
+						<li>Thomas Grip and Jens Nilsson</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>games and tech</h2>
+					<table>
+						<tr><td><table align="left"><tr><td>(2007)</td><td>Penumbra: Overture</td></tr><tr><td>(2008)</td><td>Penumbra: Black Plague</td></tr><tr><td>(2008)</td><td>Penumbra: Requiem</td></tr></table></td><td>HPL1</td></tr>
+						<tr><td><table align="left"><tr><td>(2010)</td><td>Amnesia: The Dark Descent</td></tr><tr><td>(2013)</td><td>Amnesia: A Machine for Pigs</td></tr></table></td><td>HPL2</td></tr>
+						<tr><td><table align="left"><tr><td>(2015)</td><td>SOMA</td></tr></table></td><td>HPL3</td></tr>
+					</table>
+				</section>
+
+				<section>
+					<h2>Penumbra: overture</h2>
+					<p><video src="data/penumbra.mp4" controls></video></p>
+				</section>
+
+				<section>
+					<h2>amnesia: the dark descent</h2>
+					<p><video src="data/amnesia.mp4" controls></video></p>
+				</section>
+
+				<section>
+					<h2>SOMA</h2>
+					<p><video src="data/soma.mp4" controls></video></p>
+				</section>
+
+				<section>
+					<h2>Modding soma</h2>
+					<h4>Level Editor</h4>
+					<p><img src="data/level-editor.png" height="400"></p>
+				</section>
+
+				<section>
+					<h2>Modding soma</h2>
+					<h4>Model Editor</h4>
+					<p><img src="data/model-editor.png" height="400"></p>
+				</section>
+
+				<section>
+					<h2>Modding soma</h2>
+					<h4>Material Editor</h4>
+					<p><img src="data/material-editor.png" height="400"></p>
+				</section>
+
+				<section>
+					<h2>Modding soma</h2>
+					<h4>Particle Editor</h4>
+					<p><img src="data/particle-editor.png" height="400"></p>
+				</section>
+
+				<section>
+					<h2>Modding soma</h2>
+					<ul>
+						<li>entry.hpc</li>
+						<li>resources.cfg</li>
+						<li>maps/00_basics/00_basics.hpm</li>
+						<li>config/main_init.cfg</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>SPOILERS!</h2>
+					<ul>
+						<li>Mild spoilers ahead</li>
+						<li>Bits and pieces from the game</li>
+						<li>First level in level editor</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Demo time!</h2>
+					<img src="data/demo.gif">
+				</section>
+
+				<section>
+					<h2>references</h2>
+					<ul>
+						<li>http://frictionalgames.blogspot.de/2016/03/soma-6-months-later.html</li>
+						<li>https://wiki.frictionalgames.com/hpl3/start</li>
+						<li>https://www.youtube.com/watch?v=TGhwsa1k1LU</li>
+						<li>http://www.adventureclassicgaming.com/index.php/site/interviews/293/</li>
+						<li>http://www.frictionalgames.com/site/node/102</li>
+					</ul>
+				</section>
 			</div>
 		</div>
 
@@ -35,6 +138,16 @@
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				// The "normal" size of the presentation, aspect ratio will be preserved
+				// when the presentation is scaled to fit different resolutions. Can be
+				// specified using percentage units.
+				width: 800,
+				height: 600,
+				// Factor of the display size that should remain empty around the content
+				margin: 0.10,
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.9,
+				maxScale: 1.1,
 				// Display controls in the bottom right corner
 				controls: false,
 				// Display a presentation progress bar
@@ -48,7 +161,7 @@
 				// Enable the slide overview mode
 				overview: true,
 				// Vertical centering of slides
-				center: true,
+				center: false,
 				// Enables touch navigation on devices with touch input
 				touch: true,
 				// Loop the presentation
@@ -82,7 +195,7 @@
 				// Opens links in an iframe preview overlay
 				previewLinks: false,
 				// Transition style
-				transition: 'default', // none/fade/slide/convex/concave/zoom
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 				// Transition speed
 				transitionSpeed: 'default', // default/fast/slow
 				// Transition style for full page slide backgrounds
@@ -97,7 +210,7 @@
 				// - Calculated automatically unless specified
 				// - Set to 0 to disable movement along an axis
 				parallaxBackgroundHorizontal: null,
-				parallaxBackgroundVertical: null
+				parallaxBackgroundVertical: null,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
